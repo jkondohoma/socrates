@@ -1,6 +1,6 @@
 package animals;
 
-public abstract class Animal {
+public class Animal {
 	
 	private String color;
 	private int leg_number;
@@ -12,7 +12,9 @@ public abstract class Animal {
 	}
 	
 	
-	public abstract String move();
+	public String move() {
+		return "I'm moving with " + this.leg_number + " legs!";
+	}
 	
 
 }
