@@ -1,5 +1,12 @@
 package main;
 
+/**
+ * Program to help classify animals
+ * @author jaellekondohoma
+ *
+ */
+
+
 import animals.Cat;
 import animals.Bird;
 import animals.Bug;
@@ -14,10 +21,10 @@ public class Main {
 		Bird etta = new Bird ("green", 2, false);
 
 		
-		System.out.println(george.Descrption()+": "+george.move());
-		System.out.println(tina.Descrption()+": "+tina.move());
-		System.out.println(coco.Descrption()+": "+coco.move());
-		System.out.println(etta.Descrption()+": "+etta.move());
+		System.out.println(george.Descrption()+ ": "+ george.move());
+		System.out.println(tina.Descrption()+ ": "+ tina.move());
+		System.out.println(coco.Descrption()+ ": "+ coco.move());
+		System.out.println(etta.Descrption()+ ": "+ etta.move());
 
 	}
 

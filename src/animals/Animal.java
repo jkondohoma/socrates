@@ -1,4 +1,6 @@
+
 package animals;
+
 
 public abstract class Animal {
 	
@@ -10,7 +12,6 @@ public abstract class Animal {
 		this.color = color;
 		this.leg_number = leg_number;
 	}
-	
 	
 	public String move() {
 		return "I'm moving with " + this.leg_number + " legs!";
