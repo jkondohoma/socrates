@@ -19,12 +19,12 @@ public abstract class Animal {
 
 
 	public String getColor() {
-		return color;
+		return this.color;
 	}
 
 
 	public int getLegNumber() {
-		return leg_number;
+		return this.leg_number;
 	}
 	
 	public abstract String Descrption();
